@@ -3,14 +3,13 @@
 int main(void)
 {
 	int i = 97;
+	int d = 65;
 
 	while (i <= 122)
 	{
 		putchar(i);
 		i = i + 1;
 	}
-
-	int d = 65;
 
 	while (d <= 90)
 	{
