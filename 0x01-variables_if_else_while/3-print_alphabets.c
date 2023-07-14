@@ -2,11 +2,21 @@
 
 int main(void)
 {
-	for (int i = 97; i <= 122; i++)
-	putchar(i);
+	int i = 97;
 
-	for (int i = 65; i <= 90; i++)
-	putchar(i);
+	while (i <= 122)
+	{
+		putchar(i);
+		i = i + 1;
+	}
+
+	int d = 65;
+
+	while (d <= 90)
+	{
+		putchar(d);
+		d = d + 1;
+	}
 
 	putchar(10);
 
