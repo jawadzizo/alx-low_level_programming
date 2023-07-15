@@ -1,4 +1,10 @@
 #include<stdio.h>
+/**
+ * main - a function to print the size of data rypes
+ *
+ * Return: returns 0
+ */
+
 int main(void)
 {
 	char c;
