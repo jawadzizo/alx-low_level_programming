@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main to print the sentence
+ * main - to print the sentence
  *
- * return 0 for the main function
+ * Return: returns 0
  */
 int main(void)
 {
