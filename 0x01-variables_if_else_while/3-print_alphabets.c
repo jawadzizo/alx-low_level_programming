@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - a function to print all lowercase and uppercase alphbets
+ *
+ * Return: return 0
+ */
 
 int main(void)
 {
