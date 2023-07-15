@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - a function to print lowercase characters except e and q
+ *
+ * Return: returns 0
+ */
 
 int main(void)
 {
