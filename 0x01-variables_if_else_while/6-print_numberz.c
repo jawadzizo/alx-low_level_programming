@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - a function to print the decimal digits
+ *
+ * Return: returns 0
+ */
 
 int main(void)
 {
