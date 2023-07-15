@@ -4,7 +4,7 @@ int main(void)
 {
 	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
-	long i = 0;
+	long unsigned i = 0;
 
 	while (i <= sizeof(quote))
 	{
