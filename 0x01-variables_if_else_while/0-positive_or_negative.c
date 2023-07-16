@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include<stdio.h>
+/**
+ * main - a function to print negative and positive numbers
+ *
+ * Return: returns 0
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
