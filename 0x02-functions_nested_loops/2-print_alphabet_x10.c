@@ -12,12 +12,6 @@ void print_alphabet_x10(void)
 		for (i = 'a'; i <= 'z'; i++)
 			_putchar(i);
 
-		if (c != 9)	
-			_putchar('\n');
+		_putchar('\n');
 	}
-
-	_putchar('\n');
-
 }
-
-
