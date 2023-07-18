@@ -14,7 +14,7 @@ int main(void)
 
 	unsigned long int i = 0;
 
-	for (i = 0; i <= sizeof(text); i++)
+	for (i = 0; i <= (sizeof(text) - 2); i++)
 		_putchar(text[i]);
 
 	_putchar('\n');
