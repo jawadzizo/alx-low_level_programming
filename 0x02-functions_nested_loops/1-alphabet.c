@@ -6,13 +6,6 @@
  * Return: return 0
  */
 
-void print_alphabet(void);
-
-main(void)
-{
-	print_alphabet();
-}
-
 void print_alphabet(void)
 {
 	char i;
