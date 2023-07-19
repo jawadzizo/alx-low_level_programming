@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-
-
+/**
+ * _isalpha - a function that checks for alphacharacters
+ * @c: to be checked if it an alphacharacter
+ * Return: returns 0
+ */
 
 int _isalpha(int c)
 {
