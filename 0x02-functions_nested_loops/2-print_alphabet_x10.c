@@ -1,6 +1,8 @@
 #include "main.h"
 #include <unistd.h>
-
+/**
+ * print_alphabet_x10 - a function to print the alphabets 10 times
+ */
 
 void print_alphabet_x10(void)
 {
