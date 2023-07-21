@@ -2,25 +2,25 @@
 #include "main.h"
 
 /**
- * print_diagonal - a function to print a triangle
+ * print_triangle - a function to print a triangle
  *
- * @n: how many lines in this triangle
+ * @size: how many lines in this triangle
  */
 
-void print_diagonal(int n)
+void print_triangle(int size)
 {
 	int i;       /* space */
 	int j;       /* # */
 	int k;
 
-	k = n + 1;
+	k = size + 1;
 
-	for (; n > 0; n--)
+	for (; size > 0; size--)
 	{
-		for (i = n - 1; i > 0; i--)
+		for (i = size - 1; i > 0; i--)
 			_putchar(' ');
 
-		for (j = 0; j < k - n; j++)
+		for (j = 0; j < k - size; j++)
 			_putchar('#');
 
 		_putchar('\n');
