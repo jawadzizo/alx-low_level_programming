@@ -1,6 +1,12 @@
 #include "main.h"
 
-
+/**
+ * _strncpy - a function to copy a string.
+ * @dest: the string to copy to.
+ * @src: the string to copy.
+ * @n: number of characters to copy.
+ * Return: return the final value of dest.
+ */
 
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -9,7 +15,6 @@ char *_strncpy(char *dest, char *src, int n)
 	int i;
 	int j;
 	int k;
-	int l = 0;
 
 	for (i = 0; src[i] != '\0'; i++)
 		lensrc++;
