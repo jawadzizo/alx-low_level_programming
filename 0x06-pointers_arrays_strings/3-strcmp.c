@@ -1,6 +1,11 @@
 #include "main.h"
 
-
+/**
+ * _strcmp - a function to compare 2 strings.
+ * @s1: the first string.
+ * @s2: the second string.
+ * Return: return the value of the comparison.
+ */
 
 int _strcmp(char *s1, char *s2)
 {
