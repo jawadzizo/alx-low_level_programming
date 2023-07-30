@@ -1,6 +1,11 @@
 #include "main.h"
 
-
+/**
+ * _strcat - a function to concatenate two strings.
+ * @dest: the string to be copied to.
+ * @src: the string to copy.
+ * Return: returns the final dest string.
+ */
 
 char *_strcat(char *dest, char *src)
 {
