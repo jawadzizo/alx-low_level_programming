@@ -1,6 +1,10 @@
 #include "main.h"
 
-
+/**
+ * is_prime_number - a function to find if a number if prime or not.
+ * @n: the number to see if it's prime.
+ * Return: returns 1 if prime and 0 if not.
+ */
 
 int is_prime_number(int n)
 {
