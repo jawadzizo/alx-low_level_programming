@@ -1,2 +1,2 @@
 #!/bin/bash
-ar rsc liball.a *.c
+ar rc liball.a *.c
