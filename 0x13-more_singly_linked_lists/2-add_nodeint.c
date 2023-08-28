@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - a function to add a new node to the beginning of a linked list.
+ * add_nodeint - a function to add new node to the beginning of a linked list.
  * @head: the linked list.
  * @n: the integer to assign to the new node.
  * Return: returns the new node address.
