@@ -10,6 +10,7 @@
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	int value = 1;
+
 	value = value << index;
 
 	*n = *n | value;
