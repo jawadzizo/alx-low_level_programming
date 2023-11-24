@@ -28,13 +28,15 @@ unsigned int _strlen(const char *string)
 
 unsigned int binary_to_uint(const char *b)
 {
-	int lenght = _strlen(b);
+	int lenght;
 	int value = 0;
 	int current = 1;
 	int i;
 
 	if (b == NULL)
 		return (0);
+
+	lenght = _strlen(b);
 
 	for (i = lenght - 1; i >= 0; i--)
 	{
