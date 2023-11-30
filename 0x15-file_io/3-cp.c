@@ -74,8 +74,6 @@ int open_to_append(char *filename)
 		exit(99);
 	}
 
-	lseek(opening, 0L, 2);
-
 	return (opening);
 }
 
