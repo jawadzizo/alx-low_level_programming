@@ -66,7 +66,7 @@ int open_to_read(char *filename)
 
 int open_to_append(char *filename)
 {
-	int opening = open(filename, O_WRONLY | O_CREAT, 664);
+	int opening = open(filename, O_WRONLY | O_CREAT, 0664);
 
 	if (opening == -1)
 	{
