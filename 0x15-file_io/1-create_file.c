@@ -29,13 +29,13 @@ int create_file(const char *filename, char *text_content)
 {
 	int creating, writing;
 
-	if (text_content == NULL)
-		return (-1);
-
-	creating = creat(filename, 600);
+	creating = creat(filename, 0600);
 
 	if (creating == -1)
 		return (-1);
+
+	if (text_content == NULL)
+		return (1);
 
 	writing = write(creating, text_content, _strlen(text_content));
 
