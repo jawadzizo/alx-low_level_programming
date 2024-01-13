@@ -37,7 +37,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 
 /**
- * add_dnodeint - add a node at the beginning of a linked list
+ * add_dnodeint2 - add a node at the beginning of a linked list
  * @head: the head of the linked list
  * @n: the value to assign to the new node
  * Return: a poinetr to the new node
