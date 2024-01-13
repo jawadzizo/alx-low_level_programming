@@ -1,5 +1,7 @@
 #include "lists.h"
 
+dlistint_t *add_dnodeint2(dlistint_t **head, const int n);
+
 /**
  * add_dnodeint_end - adds a node to the end of the linked list
  * @head: the head of the linked list
@@ -12,7 +14,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	dlistint_t *new;
 
 	if (ptr == NULL)
-		return (add_dnodeint(head, n));
+		return (add_dnodeint2(head, n));
 
 	while (ptr->next != NULL)
 		ptr = ptr->next;
@@ -40,7 +42,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
  * @n: the value to assign to the new node
  * Return: a poinetr to the new node
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint2(dlistint_t **head, const int n)
 {
 	dlistint_t *new = malloc(sizeof(dlistint_t));
 
