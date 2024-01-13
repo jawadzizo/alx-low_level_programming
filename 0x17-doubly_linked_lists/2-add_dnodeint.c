@@ -12,8 +12,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 
 	if (new == NULL)
 	{
-		printf("error allocating memory for the new node\n");
-		exit(EXIT_FAILURE);
+		return (NULL);
 	}
 
 	new->n = n;
